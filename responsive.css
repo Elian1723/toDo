@@ -1,0 +1,19 @@
+@media screen and (max-width: 540px) {
+    main{
+        font-size: 15px;
+    }
+    main .wrap{
+        width: 300px;
+        height: 400px;
+        padding: 1rem;
+    }
+    main nav{
+        height: 9%;
+    }
+    main nav input, main nav button{
+        height: 30px;
+    }
+    main nav #add-task{
+        height: 30px;
+    }
+}
