@@ -41,7 +41,6 @@ addTask.addEventListener("click", e =>{
             node.parentNode.remove();
         })
     });
-
     e.preventDefault();
 });
 
