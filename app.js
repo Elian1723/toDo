@@ -12,7 +12,6 @@ month.textContent = searchMonth(fecha.getMonth());
 year.textContent = fecha.getFullYear();
 day.textContent = searchDay(fecha.getDay());
 
-
 let newTask, task, icon, arrayIcon;
 
 inputTask.addEventListener("input", e =>{
