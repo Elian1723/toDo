@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive/responsive.css">
+    <script defer src="responsive/responsive.js"></script>
     <script defer src="months.js"></script>
     <script defer src="app.js"></script>
     <title>Lista de tareas</title>
@@ -30,7 +31,7 @@
         
         <!-- input -->
         <nav>
-            <form class="form">
+            <form class="form" id="form">
                 <input type="text" id="new-task" placeholder="New task">
                 <button id="add-task">+</button>
             </form>
